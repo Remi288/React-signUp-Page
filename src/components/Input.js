@@ -49,9 +49,9 @@ const Status = styled.div`
     background: #ef4f4f;
   }
 
-  ${StyledInput}:invalid + & {
+  ${'' /* ${StyledInput}:invalid + & {
     background: #ff4646;
-  }
+  } */}
 
   ${StyledInput}:valid + & {
     background: #16c79a;

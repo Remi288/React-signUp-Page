@@ -63,8 +63,13 @@ const Button = styled.button`
   box-shadow: 6px 14px 9px -15px rgba(0, 0, 0, 0.25);
   background-color: #bedcfa;
   color: #fff;
-  font-weight:600;
+  font-weight: 600;
   cursor: pointer;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
 `;
 const LogoWrapper = styled.div`
   img {

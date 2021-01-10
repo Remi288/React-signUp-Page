@@ -12,7 +12,7 @@ const Sidebar = () => {
             </LogoWrapper>
             <Form>
                 <h3>Sign Up</h3>
-                <Input placeholder="fullname" />
+                <Input placeholder="full name" />
                 <Input type="email" placeholder="email"/>
                 <Input type="password" placeholder="password" />
                 <Input type="password" placeholder="confirm password" />
@@ -24,6 +24,7 @@ const Sidebar = () => {
 
 
 const Form = styled.div`
+    width: 100%;
     h3 {
         color: #666666;
         margin-bottom: 2rem;
